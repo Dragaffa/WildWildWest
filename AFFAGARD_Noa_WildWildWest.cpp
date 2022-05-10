@@ -15,7 +15,7 @@ int main()
     typedef std::map<std::string, int>::const_iterator iter;
 
     for (iter it = map.begin(); it != map.end(); ++it)
-       std::cout << "le nombre d'occurence du mot " << it->first << " est " << it->second << std::endl;
+       std::cout << "occurence " << it->first << ": " << it->second << std::endl;
 
     return 0;
 }
